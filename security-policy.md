@@ -1,3 +1,4 @@
 # Account data handling
 
-Responses must omit credentials, password hashes, and private customer fields.
+API responses must use an explicit allowlist of public fields.
+Never serialize credentials, password hashes, or private customer fields.
